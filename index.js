@@ -23,7 +23,7 @@ function displayKeyPress(event) {
   // Implement the function to display key pressed
   const keyPressDisplay = document.getElementById("keyPressDisplay")
   if (keyPressDisplay) {
-    keyPressDisplay.textContent = `You pressed: ${event.key}`
+    keyPressDisplay.textContent = `Key pressed: ${event.key}`
   }
 }
 
@@ -73,5 +73,5 @@ module.exports = {
   resetBackgroundColor,
   displayKeyPress,
   displayUserInput,
-  setupEventListeners,
+  setupEventListeners
 }
